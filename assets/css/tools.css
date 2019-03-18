@@ -1,0 +1,105 @@
+.qz_build_web_box{
+    min-width: 100%;
+    min-height: 1005;
+}
+.tool-start{
+    position: fixed;
+    left: 10px;
+    top: 0px;
+    border:1px solid #CCC;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    display: none;
+}
+.tools{
+    position: fixed;
+    top: 0;
+    left: 10px;
+    width: 300px;
+    border:1px solid #CCC;
+    background-color: white;
+    z-index: 999999;
+}
+.tools > .title{
+    background-color: #f5f5f5;
+    line-height: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+}
+.tools > .title > .close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.tools > .content{
+    text-align: center;
+}
+.tools > .content > li{
+    width: 99px;
+    line-height: 100px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    cursor: pointer;
+}
+
+
+
+.tip-border{
+    position: relative;
+    min-height: 100px;
+    border: 1px dashed #CCC;
+}
+.icon-position{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+
+.ele-setting-box{
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #CCC;
+    background-color: white;
+    display: none;
+}
+.ele-setting-box > .title{
+    position: relative;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #CCC;
+}
+.ele-setting-box > .title .close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+.ele-setting-box input{
+    border:0.01rem solid #eee;
+    line-height: 30px;
+}
+.ele-setting-box .sets > li{
+    padding: 5px 0 5px 10px;
+}

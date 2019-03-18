@@ -1,0 +1,8 @@
+.idea
+*.log
+composer.lock
+app/config.php
+app/database.php
+runtime
+public/index.php
+public/indexdev.php

@@ -1,0 +1,22 @@
+/*字体集合，采用阿里巴巴图库字体，可选择性比较大*/
+@font-face {
+    font-family: 'iconfont';  /* project id 1094131 */
+    src: url('//at.alicdn.com/t/font_1094131_qrm9by3odli.eot');
+    src: url('//at.alicdn.com/t/font_1094131_qrm9by3odli.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1094131_qrm9by3odli.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1094131_qrm9by3odli.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1094131_qrm9by3odli.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1094131_qrm9by3odli.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+
+.icon-edit:before { content: "\e62b"; }
+.icon-tools:before { content: "\e607"; }

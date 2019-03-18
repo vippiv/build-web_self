@@ -1,0 +1,58 @@
+<!--
+// +----------------------------------------------------------------------
+// | index
+// +----------------------------------------------------------------------
+// | Author: 2851986856@qq.com
+// +----------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/tools.css">
+    <link rel="stylesheet" href="assets/css/font-icon.css">
+</head>
+<body>
+<!--工具箱 S-->
+<div class="tool-start" id="tool-start"><span class="iconfont icon-tools"></span></div>
+<div class="tools" id="tools-box">
+    <p class="title">工具箱 <span class="close">×</span></p>
+    <ul class="content clearfix">
+        <li data-type="base_block">基础块</li>
+    </ul>
+</div>
+<!--工具箱 E-->
+
+<!--用户自主建站主体部分（所有元素都放这里） S-->
+<div class="qz_build_web_box" id="qz_build_web_box"></div>
+<!--用户自主建站主体部分（所有元素都放这里） E-->
+
+<!--元素参数设置框 S-->
+<div class="ele-setting-box" id="ele-setting-box">
+    <p class="title">参数设置 <span class="close">×</span></p>
+    <ul class="sets">
+        <li><span>宽度：</span><input type="text" data-name="ele-set-w"></li>
+        <li><span>高度：</span><input type="text" data-name="ele-set-h"></li>
+        <li><span>背景色：</span><input type="text" data-name="ele-set-bgc"></li>
+        <li><span>背景图片：</span><input type="text" data-name="ele-set-bgimg"></li>
+        <li>
+            <span>背景图片尺寸：</span>
+            <input type="text" placeholder="宽度" data-name="ele-set-bg-w">
+            <input type="text" placeholder="高度" data-name="ele-set-bg-h">
+        </li>
+    </ul>
+    <div class="btn-area text-center">
+        <button type="button" class="confirm">确定</button>
+        <button type="button" class="cancel">取消</button>
+    </div>
+</div>
+<!--元素参数设置框 E-->
+<script type="text/javascript" src="assets/js/jquery1.11.3.min.js"></script>
+<script type="text/javascript" src="assets/js/config.js"></script>
+<script type="text/javascript" src="assets/js/buildweb.fn.js"></script>
+<script type="text/javascript" src="assets/js/tools.js"></script>
+</body>
+</html>
