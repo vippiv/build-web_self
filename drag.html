@@ -1,45 +1,31 @@
 <!--
 // +----------------------------------------------------------------------
-// | index
+// | drag
 // +----------------------------------------------------------------------
-// | Author: 2851986856@qq.com
+// | Author: 470211273@qq.com
 // +----------------------------------------------------------------------
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>拖放</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/drag.css">
     <link rel="stylesheet" href="assets/css/tools.css">
-    <link rel="stylesheet" href="assets/css/font-icon.css">
 </head>
 <body>
-<!--工具箱 S-->
-<div class="tool-start" id="tool-start"><span class="iconfont icon-tools"></span></div>
-<div class="tools" id="tools-box">
-    <p class="caption">工具箱 <span class="close">×</span></p>
-    <p class="title">基础元素</p>
-    <ul class="content clearfix">
-        <li data-type="base_block">基础块</li>
-        <li data-type="paragraph_block">段落</li>
-        <li data-type="img_block">图像</li>
-        <li data-type="span_block">内联框</li>
-    </ul>
-    <p class="title">组件</p>
-    <ul class="content clearfix">
-        <li data-type="wheel_block">轮播</li>
-        <li data-type="sbs_block">并列</li>
-        <li data-type="fix_block">悬浮控件</li>
-        <li data-type="order_block">发单控件</li>
+<div class="container">
+    <div class="trash"></div>
+    <ul class="clearfix garbage">
+        <li draggable="true">div</li>
+        <li draggable="true">p</li>
+        <li draggable="true">img</li>
+        <li draggable="true">span</li>
+        <li draggable="true">i</li>
     </ul>
 </div>
-<!--工具箱 E-->
-
-<!--用户自主建站主体部分（所有元素都放这里） S-->
-<div class="qz_build_web_box" id="qz_build_web_box"></div>
-<!--用户自主建站主体部分（所有元素都放这里） E-->
 
 <!--元素参数设置框 S-->
 <div class="ele-setting-box" id="ele-setting-box">
@@ -62,8 +48,6 @@
 </div>
 <!--元素参数设置框 E-->
 <script type="text/javascript" src="assets/js/jquery1.11.3.min.js"></script>
-<script type="text/javascript" src="assets/js/config.js"></script>
-<script type="text/javascript" src="assets/js/buildweb.fn.js"></script>
-<script type="text/javascript" src="assets/js/tools.js"></script>
+<script type="text/javascript" src="assets/js/drag.js"></script>
 </body>
 </html>
